@@ -7,10 +7,10 @@ shell.
 Install
 ---------
 
-It's easiest to link the subdirectory here to your extensions directory:
+It's easiest to link the subdirectory here to your extensions directory (if exists):
 
     cd ~/.local/share/gnome-shell/extensions
-    ln -sv <path to git>/pidgin-conversation-integration@katesenshi.org ./
+    git clone https://github.com/cwansart/gnome-shell-extensions-pidgin.git
 
 restart Gnome shell (Alt+F2 type r and hit enter)
 
